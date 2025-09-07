@@ -4,83 +4,80 @@ import React from "react";
 import img1 from "@/../../public/footer1.jpg"
 import img2 from "@/../../public/footer2.jpg"
 import img3 from "@/../../public/footer3.jpg"
+import { CheckCircle, Pin, Lock, Mail, AlertTriangle } from "lucide-react";
 
 const Footer = () => {
     return (
         <footer className="bg-white text-black">
-            <div className="px-4 py-10 pt-0 space-y-8">
+            <section className="bg-black text-white px-4 py-8 md:px-12 md:py-12">
+                <div className="max-w-3xl mx-auto space-y-6 text-sm md:text-base leading-relaxed">
 
-                {/* Top Banner Image */}
-                <div className="flex justify-center">
-                    <Image
-                        src={img1}
-                        alt="Agent Banner"
-                        width={600}
-                        height={300}
-                        className="rounded-md w-full"
-                    />
-                </div>
+                    {/* Heading */}
+                    <p className="flex items-start gap-2 text-gray-200 font-medium">
+                        <AlertTriangle className="text-yellow-400 w-5 h-5 shrink-0 mt-1" />
+                        <span>
+                            এজেন্ট দের সাথে যোগাযোগ এর আগে ভেল্কির নিয়ম গুলো জেনে নিন!!
+                        </span>
+                    </p>
 
-                {/* Heading */}
-                <h2 className="text-center text-2xl font-semibold">
-                    velki agent list কিভাবে আমি ভেল্কিতে এজেন্ট হতে পারি ?
-                </h2>
+                    {/* Rule 1 */}
+                    <p className="flex items-start gap-2">
+                        <CheckCircle className="text-green-500 w-5 h-5 shrink-0 mt-1" />
+                        <span>
+                            প্রতারণার হাত থেকে বাঁচতে সবার আগে ভিজিট করুন ভেল্কি অফিসিয়াল সাইটঃ{" "}
+                            <a
+                                href="https://winpbu.com"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-blue-400 underline hover:text-blue-300"
+                            >
+                                Winpbu.com
+                            </a>
+                        </span>
+                    </p>
 
-                {/* Red link text */}
-                <p className="text-center text-xl text-red-600">
-                    লোকাল মাস্টার এজেন্ট হবার সিস্টেম: এজেন্ট হবার জন্য আমাদের সুপার এজেন্ট দের সাথে যোগাযোগ করতে হবে। velki agent list
-                </p>
+                    {/* Rule 2 */}
+                    <p className="flex items-start gap-2">
+                        <Pin className="text-red-400 w-5 h-5 shrink-0 mt-1" />
+                        <span>
+                            হোয়াটস্যাপ কোন এপ এর মাধ্যমে যোগাযোগ করা যাবে না। করলে তা গ্রহণযোগ্য হবে না।
+                        </span>
+                    </p>
 
-                {/* Velki Logo Image */}
-                <div className="flex justify-center">
-                    <Image
-                        src={img2}
-                        alt="Velki Logo"
-                        width={500}
-                        height={200}
-                        className="w-full"
-                    />
-                </div>
+                    {/* Rule 3 */}
+                    <p className="flex items-start gap-2">
+                        <Lock className="text-yellow-500 w-5 h-5 shrink-0 mt-1" />
+                        <span>
+                            পাসওয়ার্ড পরিবর্তন করে দিলে – আপনি একাউন্ট ঢুকে আবার পাসওয়ার্ড পরিবর্তন করে নেবেন।
+                            এজেন্ট কোন ভাবেই আপনার পাসওয়ার্ড না জানে।
+                        </span>
+                    </p>
 
-                {/* Bangla Content Section */}
-                <div className="space-y-4 text-justify text-[15px] leading-relaxed">
-                    <h3 className="text-2xl font-bold text-center">
-                        velki agent list WINPBU বাংলাদেশ কী?
-                    </h3>
-                    <p className="text-center text-xl">
-                        velki agent list WINPBU বাংলাদেশ কী?
-                        WINPBU বাংলাদেশ হচ্ছে দেশের অন্যতম শীর্ষস্থানীয় অনলাইন গেমিং ও বেটিং প্ল্যাটফর্ম velki agent list পরিচালনাকারী প্রতিষ্ঠান। আমাদের প্রতিটি সাইটই মূলত এজেন্ট-ভিত্তিক, যার অর্থ হলো—সরাসরি লেনদেন করা যায় না। velki agent list এজন্য আপনাকে অবশ্যই একজন ভেরিফায়েড এজেন্টের মাধ্যমে একাউন্ট খুলতে হবে। সেই এজেন্টই আপনার জন্য velki agent list একাউন্ট খুলে দেবে এবং আপনার হয়ে ডিপোজিট বা উইথড্র প্রসেস করবে।বর্তমানে আমাদের পরিচালিত জনপ্রিয় সাইটগুলো হলো: ভেল্কি, বাজিওয়ালা এবং বাজি৩৬৫। আপনি এই সাইটগুলোর যেকোনো একটিতে খেলার জন্য velki agent list একটি একাউন্ট খুলতে চাইলে অবশ্যই আমাদের velki agent list ওয়েবসাইটে দেওয়া এজেন্ট লিস্ট থেকে একজন বিশ্বস্ত এজেন্ট নির্বাচন করতে হবে। অন্য কোনো উৎস থেকে velki agent list লেনদেন করলে তার সমস্ত দায় আপনার নিজের হতে পারে
+                    {/* Rule 4 */}
+                    <p className="flex items-start gap-2">
+                        <Mail className="text-blue-400 w-5 h-5 shrink-0 mt-1" />
+                        <span>
+                            প্রতিবার এজেন্ট এর কাছ থেকে তথ্য নেবার আগে, মেসেজের মাধ্যমে সেই এজেন্টের বর্তমান তথ্য জেনে নিন।
+                        </span>
+                    </p>
+
+                    {/* Rule 5 */}
+                    <p className="flex items-start gap-2">
+                        <AlertTriangle className="text-red-500 w-5 h-5 shrink-0 mt-1" />
+                        <span>
+                            এজেন্ট এর বিরুদ্ধে অভিযোগ থাকলে নাম্বার এর শেষে{" "}
+                            <span className="font-semibold text-red-400">অভিযোগ</span> বাটনে
+                            ক্লিক করে হোয়াটস্যাপ-এ রিপোর্ট করুন।
+                        </span>
                     </p>
                 </div>
 
-                {/* Money Transfer Image */}
-                <div className="flex justify-center">
-                    <Image
-                        src={img3}
-                        alt="Money Transfer"
-                        width={500}
-                        height={250}
-                        className="w-full"
-                    />
+                {/* Footer */}
+                <div className="mt-10 text-center text-xs text-gray-400 border-t border-gray-700 pt-4">
+                    © 2025 Velki Agent Directory | This is not a gambling website. This site is
+                    for listing verified agents only.
                 </div>
-
-                {/* More Content */}
-                <div className="space-y-4 text-justify text-[15px] leading-relaxed">
-                    <h3 className="text-2xl text-center font-bold text-red-600">
-                        VELKI WINPBU তে কিভাবে লেনদেন করবেন?
-                    </h3>
-                    <p className="text-xl text-center">
-                        বিকাশ / নগদ / রকেট বা অন্যান্য মোবাইল ব্যাংকিংয়ের মাধ্যমে লেনদেন করার সময় ইউজার যখন এজেন্টকে টাকা পাঠায় এবং এজেন্ট যখন winpbu agent list  ইউজারকে টাকা পাঠায়, তখন কিছু নির্দিষ্ট নিয়ম মেনে লেনদেন winpbu agent list করতে হয়। উদাহরণস্বরূপ, ইউজার যদি এজেন্টের বিকাশ পার্সোনাল নম্বরে টাকা পাঠায়, তাহলে ১০ পয়েন্টের জন্য ১০২০ টাকা সেন্ড মানি বা ক্যাশ ইন করতে হবে। আবার ইউজার যদি এজেন্টের বিকাশ এজেন্ট নম্বরে টাকা পাঠায়, তাহলে ১০ পয়েন্টের জন্য ১০০০ টাকা ক্যাশ আউট করলেই হবে। winpbu agent list অন্যদিকে, এজেন্ট যদি ইউজারের বিকাশ পার্সোনাল নম্বরে টাকা পাঠায়, তাহলে ১০ পয়েন্টের জন্য এজেন্টকে ১০০০ টাকা ক্যাশ ইন করতে হবে। তবে, যদি এজেন্ট ইউজারের বিকাশ এজেন্ট নম্বরে টাকা পাঠায়, তাহলে ১০ পয়েন্টের জন্য ক্যাশ আউট করতে হবে ৯৮০ টাকা। বিকাশ / নগদ / রকেট বা অন্যান্য winpbu agent list মোবাইল ব্যাংকিংয়ের মাধ্যমে লেনদেন সাধারণত তাৎক্ষণিকভাবে সম্পন্ন হয়, তবে ব্যতিক্রমী কিছু ক্ষেত্রে সামান্য সময় লাগতে পারে, তাই সবসময় ভেরিফায়েড ও বিশ্বস্ত এজেন্টের মাধ্যমেই লেনদেন করা নিরাপদ। winpbu agent list
-                    </p>
-                    <p className="text-xl text-center">
-                        মোবাইল ব্যাংকিংয়ের মাধ্যমে লেনদেনের সময় winpbu agent list  সকাল ৯টা ৪৫ মিনিট থেকে দুপুর ১টা পর্যন্ত এবং দুপুর ৩টা থেকে রাত ৯টা ৪৫ মিনিট পর্যন্ত সীমাবদ্ধ। এই নির্ধারিত সময়ের বাইরে কোনোভাবেই লেনদেন করা যাবে না। winpbu agent list বিশেষ করে, রাত ৯টা ৪৫ মিনিটের পরে কেউ যদি টাকা পাঠায়, তাহলে তার দায়ভার কোম্পানি নেবে না। ডিপোজিট এবং উইথড্র প্রসেস সম্পন্ন হতে সাধারণত ১৫ মিনিট থেকে ১ ঘণ্টা পর্যন্ত সময় লাগতে পারে। একজন ইউজার দিনে সর্বোচ্চ ১ বার ডিপোজিট এবং ১ বার উইথড্র করতে পারবেন। প্রতিবার টাকা পাঠানোর আগে এজেন্টের কাছ থেকে বিকাশ, নগদ বা রকেট নম্বর জেনে নেওয়া বাধ্যতামূলক, velki agent list কারণ ভুল নম্বরে পাঠালে কোম্পানি দায় নেবে না। ব্যাংকের মাধ্যমে লেনদেন করতে হলে এজেন্টের দেওয়া নির্ধারিত ব্যাংক অ্যাকাউন্টে টাকা ট্রান্সফার করতে হবে এবং সেই সঙ্গে ট্রান্সফার রসিদ বা স্ক্রিনশট এজেন্টকে পাঠাতে হবে, যাতে যাচাই করে দ্রুত ডিপোজিট বা উইথড্র সম্পন্ন করা যায়। winpbu agent list
-                    </p>
-                    <p className="text-xl text-center">
-                        ব্যাংকের মাধ্যমে ডিপোজিট বা উইথড্র করতে চাইলে অবশ্যই ন্যূনতম ১ লাখ টাকার বেশি লেনদেন করতে হবে। ১ লাখ টাকার কম এমাউন্ট কোনোভাবেই winpbu agent list ব্যাংক ট্রান্সফারে গ্রহণযোগ্য নয়। যারা  ব্যাংকে ডিপোজিট করেন, তাদের জন্য একটি বিষয় অবশ্যই মনে রাখা জরুরি—ডিপোজিট ভেরিফিকেশনে সর্বোচ্চ ২ দিন পর্যন্ত সময় লাগতে পারে। এর ফলে তাড়াহুড়া না করে আগেভাগে লেনদেন সম্পন্ন করা উত্তম। উইথড্রয়ের ক্ষেত্রে, ব্যাংকে টাকা তোলার অনুরোধ করলে পরের দিন অর্থ ইউজারের অ্যাকাউন্টে ট্রান্সফার করা হবে। তবে প্রতি ১ লাখ টাকায় ১০০০ টাকা চার্জ কেটে রাখা হবে, যা আগেই বিবেচনায় নেওয়া উচিত। winpbu agent list এই চার্জ এবং সময়সীমা মাথায় রেখে ব্যাংকিং লেনদেনের সিদ্ধান্ত নেওয়া বুদ্ধিমানের কাজ। অতএব, যেকোনো বড় অঙ্কের লেনদেনের জন্য winpbu agent list  ব্যাংক ব্যবস্থার সুবিধা winpbu agent list নেওয়া যেতে পারে, তবে সব শর্ত ও সময়সীমা মেনে।
-                    </p>
-                </div>
-
-            </div>
+            </section>
         </footer>
     );
 };

@@ -51,7 +51,7 @@ const renderTable = (title: string, data: Agent[]) => (
             {title}
         </h3>
         <table className="w-full text-sm text-left text-gray-700">
-            <thead className="bg-red-50 text-gray-900">
+            <thead className="bg-grey-200 text-gray-900">
                 <tr>
                     <th className="px-4 py-2 border text-center">ID NO</th>
                     <th className="px-4 py-2 border text-center">AGENT</th>
@@ -80,7 +80,7 @@ const renderTable = (title: string, data: Agent[]) => (
                                 />
                             </a>
                         </td>
-                        <td className="px-4 py-2 border text-red-600 font-medium">
+                        <td className="px-4 py-2 border text-pink-600 font-medium">
                             <a
                                 href={`https://wa.me/${agent.call}`}
                                 target="_blank"
@@ -89,14 +89,15 @@ const renderTable = (title: string, data: Agent[]) => (
                                 {agent.phone}
                             </a>
                         </td>
-                        <td className="px-4 py-2 border text-red-600 font-semibold">
+                        <td className="px-4 py-2 border text-pink-600 font-semibold">
                             <a
-                                href={`https://wa.me/+1(506)4058213`}
+                                href="https://wa.me/15064058213"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
                                 অভিযোগ
                             </a>
+
 
                         </td>
                     </tr>

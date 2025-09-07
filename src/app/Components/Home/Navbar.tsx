@@ -17,7 +17,7 @@ export default function Navbar({ setSearchAgentId }: NavbarProps) {
       {/* Header */}
       <div className="w-full shadow text-right text-xl pb-2 text-red-700 font-semibold mb-4">
         <a
-          href={`https://wa.me/+17786440268`}
+          href={`https://wa.me/15064058213`}
           target="_blank"
           rel="noopener noreferrer"
         >
