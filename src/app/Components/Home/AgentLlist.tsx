@@ -13,7 +13,7 @@ type Agent = {
 
 // Randomly choose between two call numbers
 function getRandomCallNumber() {
-    const callNumbers = ["+601125225441", "+601125047946", "+1(778)6440268"];
+    const callNumbers = ["+601125225441", "+601125047946", "17786440268"];
     return callNumbers[Math.floor(Math.random() * callNumbers.length)];
 }
 
