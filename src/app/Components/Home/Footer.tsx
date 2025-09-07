@@ -26,12 +26,12 @@ const Footer = () => {
                         <span>
                             প্রতারণার হাত থেকে বাঁচতে সবার আগে ভিজিট করুন ভেল্কি অফিসিয়াল সাইটঃ{" "}
                             <a
-                                href="https://winpbu.com"
+                                href="https://velkiagentlistlivee.com"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="text-blue-400 underline hover:text-blue-300"
                             >
-                                Winpbu.com
+                                velkiagentlistlivee.com
                             </a>
                         </span>
                     </p>
