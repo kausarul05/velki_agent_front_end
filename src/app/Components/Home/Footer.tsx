@@ -1,9 +1,5 @@
 "use client";
-import Image from "next/image";
 import React from "react";
-import img1 from "@/../../public/footer1.jpg"
-import img2 from "@/../../public/footer2.jpg"
-import img3 from "@/../../public/footer3.jpg"
 import { CheckCircle, Pin, Lock, Mail, AlertTriangle } from "lucide-react";
 
 const Footer = () => {
